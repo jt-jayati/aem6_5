@@ -6,9 +6,30 @@
 *.dir
 .gradle
 .brackets.json
-.vlt
 .vscode
 .DS_Store
+
+### Vault ###
+.vlt
+
+### Node.js ###
+# Log files
+*.log
+
+# NPM
+node_modules/
+package-lock.json
+yarn.lock
+
+# Webpack
+build/
+dist/
+
+# Frontend Maven Plugin
+node/
+
+# Tests
+coverage/
 
 ### Eclipse ###
 .metadata
